@@ -1,0 +1,46 @@
+/**
+ * Layout
+ */
+
+body {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-wrapper {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.shift-above {
+  padding-top: 48px;
+}
+.shift-below {
+  padding-bottom: 48px;
+}
+
+.logo {
+  display: block;
+  width: 112px;
+  height: 45px;
+  overflow: hidden;
+
+  text-indent: -9999px;
+
+  background-color: $brand-color;
+  @include image-set('../images/header_logo.png', '../images/header_logo@2x.png');
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.templates {
+  background-color: $ultra-light-grey;
+}
+  .factory {
+    height: 330px;
+  }
+
+.site-footer {
+  padding: 24px 0;
+  background-color: $dark-grey;
+}

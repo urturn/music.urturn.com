@@ -1,0 +1,88 @@
+/**
+ * Artists
+ */
+
+.artists__pictures {
+  height: 400px;
+
+  position: relative;
+}
+
+.artist__picture {
+  width: 300px;
+  height: 400px;
+
+  position: absolute;
+  bottom: 0;
+
+  background: url('../images/artists-small.png') no-repeat;
+
+  &.is-selected {
+    width: 400px;
+    background-image: url('../images/artists-big.png');
+    z-index: 1;
+  }
+}
+  .artist__picture--1 {
+    left: -2%;
+    background-position: 0 100%;
+
+    &.is-selected {
+      left: -8%;
+    }
+  }
+  .artist__picture--2 {
+    left: 10%;
+    background-position: -300px 100%;
+
+    &.is-selected {
+      left: 5%;
+      background-position: -400px 100%;
+    }
+  }
+  .artist__picture--3 {
+    left: 27%;
+    background-position: -600px 100%;
+
+    &.is-selected {
+      left: 21%;
+      background-position: -800px 100%;
+    }
+  }
+  .artist__picture--4 {
+    right: 29%;
+    background-position: -900px 100%;
+
+    &.is-selected {
+      right: 24%;
+      background-position: -1200px 100%;
+    }
+  }
+  .artist__picture--5 {
+    right: 13%;
+    background-position: -1200px 100%;
+
+    &.is-selected {
+      right: 9%;
+      background-position: -1600px 100%;
+    }
+  }
+  .artist__picture--6 {
+    right: 0;
+    background-position: -1500px 100%;
+
+    &.is-selected {
+      right: -5%;
+      background-position: -2000px 100%;
+    }
+  }
+
+
+.artist__name {
+  padding: 12px 0;
+
+  &.is-selected {
+    background-color: $brand-color;
+    color: white;
+  }
+}

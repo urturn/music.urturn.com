@@ -1,0 +1,51 @@
+/**
+ * Typography
+ */
+
+// Fonts
+
+@font-face {
+  font-family: 'Hermes Condensed';
+  src: url('../fonts/hermescond-regular-webfont.eot');
+  src: url('../fonts/hermescond-regular-webfont.eot?iefix') format('eot'),
+       url('../fonts/hermescond-regular-webfont.woff') format('woff'),
+       url('../fonts/hermescond-regular-webfont.ttf') format('truetype'),
+       url('../fonts/hermescond-regular-webfont.svg#whatever') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+// Generic
+
+html,
+body {
+  font: normal normal 100%/1.5 'Hermes Condensed', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: $dark-grey;
+  -webkit-font-smoothing: antialiased;
+
+  text-align: center;
+}
+
+
+// Links
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+
+// Headings
+
+#{headings()} {
+  font-weight: normal;
+
+  strong {
+    color: $brand-color;
+  }
+}
+
+h1 + h2 {
+  margin-top: -0.67em;
+}
