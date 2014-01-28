@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*
  * Urturn © 2014, All Rights Reserved.
  * Music.urturn.com
  */
@@ -7,7 +7,13 @@
  * Variables
  */
 /**
+ * Fonts
+ */
+/**
  * Mixins
+ */
+/**
+ * Font-size mixin to calculate rem value dynamically
  */
 /**
  * Helpers
@@ -29,7 +35,36 @@
   clear: both;
 }
 
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* line 24, ../sass/tools/_helpers.scss */
+.in-b {
+  display: inline-block;
+}
+
+/* line 29, ../sass/tools/_helpers.scss */
+.index {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../sass/tools/_helpers.scss */
+.index > li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 41, ../sass/tools/_helpers.scss */
+.horizontal {
+  line-height: 0;
+}
+/* line 44, ../sass/tools/_helpers.scss */
+.horizontal > * {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+/* normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -452,25 +487,26 @@ table {
 body {
   padding: 0;
   overflow-x: hidden;
+  min-width: 1152px;
 }
 
-/* line 10, ../sass/base/_layout.scss */
+/* line 11, ../sass/base/_layout.scss */
 .main-wrapper {
   max-width: 1152px;
   margin: 0 auto;
 }
 
-/* line 15, ../sass/base/_layout.scss */
+/* line 16, ../sass/base/_layout.scss */
 .shift-above {
   padding-top: 48px;
 }
 
-/* line 18, ../sass/base/_layout.scss */
+/* line 19, ../sass/base/_layout.scss */
 .shift-below {
   padding-bottom: 48px;
 }
 
-/* line 22, ../sass/base/_layout.scss */
+/* line 23, ../sass/base/_layout.scss */
 .logo {
   display: block;
   width: 112px;
@@ -487,17 +523,17 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 36, ../sass/base/_layout.scss */
+/* line 37, ../sass/base/_layout.scss */
 .templates {
   background-color: #e1dede;
 }
 
-/* line 39, ../sass/base/_layout.scss */
+/* line 40, ../sass/base/_layout.scss */
 .factory {
   height: 330px;
 }
 
-/* line 43, ../sass/base/_layout.scss */
+/* line 44, ../sass/base/_layout.scss */
 .site-footer {
   padding: 24px 0;
   background-color: #383031;
@@ -514,7 +550,15 @@ body {
   font-style: normal;
 }
 
-/* line 22, ../sass/base/_typography.scss */
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url("../fonts/robotocondensed-bold-webfont.eot");
+  src: url("../fonts/robotocondensed-bold-webfont.eot?iefix") format("eot"), url("../fonts/robotocondensed-bold-webfont.woff") format("woff"), url("../fonts/robotocondensed-bold-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-bold-webfont.svg#whatever") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 33, ../sass/base/_typography.scss */
 html,
 body {
   font: normal normal 100%/1.5 'Hermes Condensed', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
@@ -523,24 +567,195 @@ body {
   text-align: center;
 }
 
-/* line 33, ../sass/base/_typography.scss */
+/* line 44, ../sass/base/_typography.scss */
 a {
   color: #d2523e;
   text-decoration: none;
 }
 
-/* line 41, ../sass/base/_typography.scss */
+/* line 52, ../sass/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
-/* line 44, ../sass/base/_typography.scss */
+/* line 55, ../sass/base/_typography.scss */
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
   color: #d2523e;
 }
 
-/* line 49, ../sass/base/_typography.scss */
+/* line 60, ../sass/base/_typography.scss */
 h1 + h2 {
   margin-top: -0.67em;
+}
+
+/**
+ * Alpha
+ * BUTTON
+ */
+/* line 24, ../sass/base/_buttons.scss */
+.button {
+  display: inline-block;
+  height: 2em;
+  padding: 0.5em 0.74em;
+  cursor: pointer;
+  line-height: 1;
+  vertical-align: top;
+  color: #867e7e;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  background: none;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding-box;
+  -o-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+/* line 51, ../sass/base/_buttons.scss */
+.button.disabled {
+  opacity: .5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+/* line 62, ../sass/base/_buttons.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+[role="button"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/**
+ * Red
+ */
+/* line 71, ../sass/base/_buttons.scss */
+.level1_button {
+  color: white;
+  background-color: #d2523e;
+  border-radius: 0.333em;
+  outline: none;
+}
+/* line 78, ../sass/base/_buttons.scss */
+.level1_button.disabled {
+  background-image: none;
+}
+/* line 82, ../sass/base/_buttons.scss */
+.level1_button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #d76553;
+}
+/* line 88, ../sass/base/_buttons.scss */
+.level1_button:focus {
+  color: white;
+  -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25) inset;
+}
+/* line 94, ../sass/base/_buttons.scss */
+.level1_button:active, .level1_button.active {
+  background-color: #b33c2a;
+  color: white;
+}
+
+/**
+ * Sizes
+ */
+/* line 103, ../sass/base/_buttons.scss */
+.giant_button {
+  height: 2.4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-size: 22px;
+  font-size: 1.57143rem;
+}
+/* line 110, ../sass/base/_buttons.scss */
+.giant_button::before,
+.giant_button > i::before {
+  font-size: 32px;
+  font-size: 2.28571rem;
+  vertical-align: top;
+  top: -6px;
+}
+
+/* line 117, ../sass/base/_buttons.scss */
+.huge_button {
+  font-size: 18px;
+  font-size: 1.28571rem;
+}
+/* line 121, ../sass/base/_buttons.scss */
+.huge_button::before,
+.huge_button > i::before {
+  font-size: 24px;
+  font-size: 1.71429rem;
+  vertical-align: top;
+  top: -3px;
+}
+
+/* line 128, ../sass/base/_buttons.scss */
+.large_button {
+  font-size: 16px;
+  font-size: 1.14286rem;
+}
+/* line 132, ../sass/base/_buttons.scss */
+.large_button::before,
+.large_button > i::before {
+  font-size: 20px;
+  font-size: 1.42857rem;
+  vertical-align: top;
+  top: -3px;
+}
+
+/* line 139, ../sass/base/_buttons.scss */
+.medium_button {
+  font-size: 14px;
+  font-size: 1rem;
+}
+/* line 143, ../sass/base/_buttons.scss */
+.medium_button::before,
+.medium_button > i::before {
+  font-size: 16px;
+  font-size: 1.14286rem;
+  vertical-align: top;
+  top: -1px;
+}
+
+/* line 150, ../sass/base/_buttons.scss */
+.small_button {
+  font-size: 12px;
+  font-size: 0.85714rem;
+}
+/* line 154, ../sass/base/_buttons.scss */
+.small_button::before,
+.small_button > i::before {
+  top: -1px;
+}
+
+/* line 159, ../sass/base/_buttons.scss */
+.full_width {
+  display: block;
+  width: 100%;
+}
+
+/**
+ * Header
+ */
+/* line 5, ../sass/objects/_header.scss */
+.get-started-link {
+  margin-top: -12px;
 }
 
 /**
@@ -577,97 +792,287 @@ h1 + h2 {
  * Artists
  */
 /* line 5, ../sass/objects/_artists.scss */
-.artists__pictures {
-  height: 400px;
-  position: relative;
+.artists {
+  margin-top: 36px;
 }
 
-/* line 11, ../sass/objects/_artists.scss */
-.artist__picture {
-  width: 300px;
-  height: 400px;
-  position: absolute;
-  bottom: 0;
-  background: url("../images/artists-small.png") no-repeat;
-}
-/* line 20, ../sass/objects/_artists.scss */
-.artist__picture.is-selected {
-  width: 400px;
-  background-image: url("../images/artists-big.png");
-  z-index: 1;
+/* line 9, ../sass/objects/_artists.scss */
+.artist__main-container {
+  height: 350px;
 }
 
-/* line 26, ../sass/objects/_artists.scss */
-.artist__picture--1 {
-  left: -2%;
-  background-position: 0 100%;
-}
-/* line 30, ../sass/objects/_artists.scss */
-.artist__picture--1.is-selected {
-  left: -8%;
+/* line 13, ../sass/objects/_artists.scss */
+.artist__mosaic {
+  height: 256px;
+  border-top: 5px solid #d2523e;
 }
 
-/* line 34, ../sass/objects/_artists.scss */
-.artist__picture--2 {
-  left: 10%;
-  background-position: -300px 100%;
+/* line 19, ../sass/objects/_artists.scss */
+.artists__nav-container {
+  border-bottom: 1px solid #f7f0f0;
 }
+
+/* line 23, ../sass/objects/_artists.scss */
+.artists__nav {
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/objects/_artists.scss */
+.artist__name {
+  padding: 12px 0;
+  color: #383031;
+}
+/* line 31, ../sass/objects/_artists.scss */
+.artist__name.is-selected {
+  color: #d2523e;
+  border-bottom: 1px solid #d2523e;
+}
+
 /* line 38, ../sass/objects/_artists.scss */
-.artist__picture--2.is-selected {
-  left: 5%;
-  background-position: -400px 100%;
+.artist__picture {
+  width: 30%;
+  height: 100%;
+  min-width: 300px;
+  margin-left: -36px;
+  background-image: url("../images/artists.jpg");
+  background-repeat: no-repeat;
 }
 
-/* line 43, ../sass/objects/_artists.scss */
-.artist__picture--3 {
-  left: 27%;
-  background-position: -600px 100%;
-}
-/* line 47, ../sass/objects/_artists.scss */
-.artist__picture--3.is-selected {
-  left: 21%;
-  background-position: -800px 100%;
+/* line 49, ../sass/objects/_artists.scss */
+.artist__cta {
+  width: 27%;
+  height: 100%;
+  margin-top: 75px;
 }
 
-/* line 52, ../sass/objects/_artists.scss */
-.artist__picture--4 {
-  right: 29%;
-  background-position: -900px 100%;
-}
 /* line 56, ../sass/objects/_artists.scss */
-.artist__picture--4.is-selected {
-  right: 24%;
-  background-position: -1200px 100%;
-}
-
-/* line 61, ../sass/objects/_artists.scss */
-.artist__picture--5 {
-  right: 13%;
-  background-position: -1200px 100%;
-}
-/* line 65, ../sass/objects/_artists.scss */
-.artist__picture--5.is-selected {
-  right: 9%;
-  background-position: -1600px 100%;
+.artist__campaign {
+  width: 40%;
+  height: 100%;
+  min-width: 300px;
+  margin-right: -60px;
+  margin-top: -32px;
+  background-image: url("../images/artists-campaign.jpg");
+  background-size: 2800px auto;
+  background-repeat: no-repeat;
 }
 
 /* line 70, ../sass/objects/_artists.scss */
-.artist__picture--6 {
-  right: 0;
-  background-position: -1500px 100%;
+.artist-1 .artist__picture {
+  background-position: -2042px 100%;
 }
-/* line 74, ../sass/objects/_artists.scss */
-.artist__picture--6.is-selected {
-  right: -5%;
-  background-position: -2000px 100%;
+/* line 73, ../sass/objects/_artists.scss */
+.artist-1 .artist__campaign {
+  background-position: 0 100%;
+}
+/* line 76, ../sass/objects/_artists.scss */
+.artist-1 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-1.jpg");
 }
 
-/* line 81, ../sass/objects/_artists.scss */
-.artist__name {
-  padding: 12px 0;
+/* line 82, ../sass/objects/_artists.scss */
+.artist-2 .artist__picture {
+  background-position: -426px 100%;
 }
-/* line 84, ../sass/objects/_artists.scss */
-.artist__name.is-selected {
-  background-color: #d2523e;
+/* line 85, ../sass/objects/_artists.scss */
+.artist-2 .artist__campaign {
+  background-position: -467px 100%;
+}
+/* line 88, ../sass/objects/_artists.scss */
+.artist-2 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-2.jpg");
+}
+
+/* line 94, ../sass/objects/_artists.scss */
+.artist-3 .artist__picture {
+  background-position: -845px 100%;
+}
+/* line 97, ../sass/objects/_artists.scss */
+.artist-3 .artist__campaign {
+  background-position: -934px 100%;
+}
+/* line 100, ../sass/objects/_artists.scss */
+.artist-3 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-3.jpg");
+}
+
+/* line 106, ../sass/objects/_artists.scss */
+.artist-4 .artist__picture {
+  background-position: -1235px 100%;
+}
+/* line 109, ../sass/objects/_artists.scss */
+.artist-4 .artist__campaign {
+  background-position: -1868px 100%;
+}
+/* line 112, ../sass/objects/_artists.scss */
+.artist-4 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-4.jpg");
+}
+
+/* line 118, ../sass/objects/_artists.scss */
+.artist-5 .artist__picture {
+  background-position: -1640px 100%;
+}
+/* line 121, ../sass/objects/_artists.scss */
+.artist-5 .artist__campaign {
+  background-position: -1401px 100%;
+}
+/* line 124, ../sass/objects/_artists.scss */
+.artist-5 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-5.jpg");
+}
+
+/* line 130, ../sass/objects/_artists.scss */
+.artist-6 .artist__picture {
+  background-position: -30px 100%;
+}
+/* line 133, ../sass/objects/_artists.scss */
+.artist-6 .artist__campaign {
+  background-position: -2335px 100%;
+}
+/* line 136, ../sass/objects/_artists.scss */
+.artist-6 .artist__mosaic {
+  background-image: url("../images/mosaic-artist-6.jpg");
+}
+
+/**
+ * Engagement
+ */
+/* line 4, ../sass/objects/_engagement.scss */
+.engagement {
+  height: 450px;
+  background-image: url("../images/engagement-background.jpg");
+  background-size: cover;
+  background-position: 0 50%;
   color: white;
+}
+
+/* line 13, ../sass/objects/_engagement.scss */
+.engagement__rating {
+  height: 200px;
+  width: 514px;
+  margin: 0 auto;
+}
+/* line 19, ../sass/objects/_engagement.scss */
+.engagement__rating > li {
+  width: 134px;
+  height: 134px;
+  margin: 12px;
+  background-color: white;
+  border-radius: 50%;
+}
+/* line 27, ../sass/objects/_engagement.scss */
+.engagement__rating > li .rating {
+  color: #383031;
+  font-size: 52px;
+  height: 134px;
+  line-height: 134px;
+  font-family: "Roboto Condensed", "Hermes Condensed", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/**
+ * Engage everywhere
+ */
+/* line 40, ../sass/objects/_engagement.scss */
+.engage-everywhere {
+  border-bottom: 1px solid #e1dede;
+}
+
+/* line 44, ../sass/objects/_engagement.scss */
+.engage-everywhere__image {
+  height: 359px;
+  background-image: url("../images/engage-everywhere.jpg");
+  background-repeat: no-repeat;
+  background-position: 200px 100%;
+}
+
+/**
+ * Engage fans
+ */
+/* line 55, ../sass/objects/_engagement.scss */
+.engage-fans {
+  /*background-color: $bright-light-grey;*/
+}
+
+/* line 59, ../sass/objects/_engagement.scss */
+.step-list {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+/* line 64, ../sass/objects/_engagement.scss */
+.step-list .circle {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 12px;
+  background-color: #383031;
+  color: white;
+  border-radius: 50%;
+}
+/* line 75, ../sass/objects/_engagement.scss */
+.step-list .circle > span {
+  font-size: 22px;
+}
+/* line 79, ../sass/objects/_engagement.scss */
+.step-list .circle.step-list--red {
+  background-color: #d2523e;
+}
+/* line 84, ../sass/objects/_engagement.scss */
+.step-list .line {
+  width: 292px;
+  padding-top: 42px;
+  border-bottom: 1px solid #d0c8c8;
+}
+
+/* line 91, ../sass/objects/_engagement.scss */
+.step-text-list {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+/* line 97, ../sass/objects/_engagement.scss */
+.step-text-list li {
+  margin-left: -44px;
+  font-size: 18px;
+}
+/* line 101, ../sass/objects/_engagement.scss */
+.step-text-list li:first-child {
+  color: #d2523e;
+}
+/* line 105, ../sass/objects/_engagement.scss */
+.step-text-list li:last-child {
+  margin-left: 0;
+  margin-right: -20px;
+}
+
+/* line 112, ../sass/objects/_engagement.scss */
+.engage-fans__footer {
+  height: 345px;
+  margin-top: 60px;
+  background-image: url("../images/engage-fans-backgroud.jpg");
+  background-repeat: no-repeat;
+}
+/* line 120, ../sass/objects/_engagement.scss */
+.engage-fans__footer .button {
+  margin-top: 178px;
+  width: 365px;
+  height: 32px;
+}
+
+/**
+ * Footer
+ */
+/* line 5, ../sass/objects/_footer.scss */
+.site-footer {
+  color: #faf7f7;
+  text-align: left;
+}
+/* line 9, ../sass/objects/_footer.scss */
+.site-footer p {
+  margin: 0;
+}
+/* line 13, ../sass/objects/_footer.scss */
+.site-footer .nav {
+  margin-top: 12px;
 }

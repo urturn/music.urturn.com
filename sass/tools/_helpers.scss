@@ -20,3 +20,30 @@
   display: table;
   clear: both;
 }
+
+.in-b {
+  display: inline-block;
+}
+
+// List style
+.index {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+}
+
+.horizontal {
+  line-height: 0;
+
+  & > * {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+}

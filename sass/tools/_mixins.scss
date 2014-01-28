@@ -16,3 +16,10 @@
   background-image:      -o-image-set(url($sd) 1x, url($hd) 2x);
   background-image:     -ms-image-set(url($sd) 1x, url($hd) 2x);
 }
+/**
+ * Font-size mixin to calculate rem value dynamically
+ */
+@mixin font-size($font-size){
+  font-size:$font-size;
+  font-size:($font-size / 14px)*1rem;
+}

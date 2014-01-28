@@ -1,0 +1,162 @@
+/**
+ * Alpha
+ * BUTTON
+ */
+
+// Define basic style for buttons.
+//
+// .level1_button                                         - Red button
+// .level1_button:hover                                   - Subtle hover highlight
+// .level1_button:focus                                   - Box-shadow to highlight focus
+// .level1_button:active, .level1_button.active           - Pushed effect
+// .level1_button.disabled                                - Disabled
+// .level1_button.small_button                            - Small button
+// .level1_button.small_button.icon_flash.spaced_right    - Small button with icon
+// .level1_button.large_button                            - Large button
+// .level1_button.large_button.icon_flash.spaced_right    - Large button with icon
+// .level1_button.huge_button                             - Huge button
+// .level1_button.huge_button.icon_flash.spaced_right     - Huge button with icon
+// .level1_button.giant_button                            - Giant button
+// .level1_button.giant_button.icon_flash.spaced_right    - Giant button with icon
+// .level1_button.giant_button.full_width                 - Button as block
+//
+// Styleguide 1.2.1
+.button {
+  display: inline-block;
+  height: 2em;
+  padding: 0.5em 0.74em;
+
+  cursor: pointer;
+
+  line-height: 1;
+  vertical-align: top;
+  color: $medium-grey;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-decoration: none;
+
+  border: 0;
+  background: none;
+  @include background-clip(padding-box);
+  @include background-origin(padding-box);
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+
+  &.disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+[role="button"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+
+/**
+ * Red
+ */
+.level1_button {
+  color: white;
+
+  background-color: $brand-color;
+  border-radius: 0.333em;
+  outline: none;
+
+  &.disabled {
+    background-image: none;
+  }
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background-color: lighten($brand-color,5%);
+  }
+
+  &:focus {
+    color: white;
+    @include box-shadow(0 0 0 2px rgba(0,0,0,.25) inset);
+  }
+
+  &:active,
+  &.active {
+    background-color: darken($brand-color,10%);
+    color: white;
+  }
+}
+
+/**
+ * Sizes
+ */
+.giant_button {
+  height: 2.4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  @include font-size(22px);
+
+  &::before,
+  > i::before {
+    @include font-size(32px);
+    vertical-align: top;
+    top: -6px;
+  }
+}
+
+.huge_button {
+  @include font-size(18px);
+
+  &::before,
+  > i::before {
+    @include font-size(24px);
+    vertical-align: top;
+    top: -3px;
+  }
+}
+
+.large_button {
+  @include font-size(16px);
+
+  &::before,
+  > i::before {
+    @include font-size(20px);
+    vertical-align: top;
+    top: -3px;
+  }
+}
+
+.medium_button {
+  @include font-size(14px);
+
+  &::before,
+  > i::before {
+    @include font-size(16px);
+    vertical-align: top;
+    top: -1px;
+  }
+}
+
+.small_button {
+  @include font-size(12px);
+
+  &::before,
+  > i::before {
+    top: -1px;
+  }
+}
+
+.full_width {
+  display: block;
+  width: 100%;
+}

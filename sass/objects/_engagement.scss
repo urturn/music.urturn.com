@@ -1,0 +1,125 @@
+/**
+ * Engagement
+ */
+.engagement {
+  height: 450px;
+
+  background-image: url('../images/engagement-background.jpg');
+  background-size: cover;
+  background-position: 0 50%;
+  color: white;
+}
+
+.engagement__rating {
+  height: 200px;
+  width: 514px;
+
+  margin: 0 auto;
+
+  > li {
+    width: 134px;
+    height: 134px;
+    margin: 12px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    .rating {
+      color: $dark-grey;
+      font-size: 52px;
+      height: 134px;
+      line-height: 134px;
+      font-family: $ff-alt;
+    }
+  }
+}
+
+/**
+ * Engage everywhere
+ */
+.engage-everywhere {
+  border-bottom: 1px solid $ultra-light-grey;
+}
+
+.engage-everywhere__image {
+  height: 359px;
+
+  background-image: url('../images/engage-everywhere.jpg');
+  background-repeat: no-repeat;
+  background-position: 200px 100%;
+}
+
+/**
+ * Engage fans
+ */
+.engage-fans {
+  /*background-color: $bright-light-grey;*/
+}
+
+.step-list {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 56px;
+
+  .circle {
+    height: 60px;
+    width: 60px;
+
+    line-height: 60px;
+    margin: 12px;
+
+    background-color: $dark-grey;
+    color: white;
+    border-radius: 50%;
+
+    > span {
+      font-size: 22px;
+    }
+
+    &.step-list--red {
+      background-color: $brand-color;
+    }
+  }
+
+  .line {
+    width: 292px;
+    padding-top: 42px;
+    border-bottom: 1px solid $super-light-grey;
+  }
+}
+
+.step-text-list {
+  width: 850px;
+
+  margin: 0 auto;
+  margin-top: 18px;
+
+  li {
+    margin-left: -44px;
+    font-size: 18px;
+
+    &:first-child {
+      color: $brand-color;
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: -20px;
+    }
+  }
+}
+
+.engage-fans__footer {
+  height: 345px;
+
+  margin-top: 60px;
+
+  background-image: url('../images/engage-fans-backgroud.jpg');
+  background-repeat: no-repeat;
+
+  .button {
+    margin-top: 178px;
+    width: 365px;
+    height: 32px;
+  }
+}

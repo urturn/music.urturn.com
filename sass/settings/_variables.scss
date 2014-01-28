@@ -5,9 +5,14 @@
 $brand-color:                 rgb(210,82,62);
 
 $dark-grey:                   rgb(56,48,49);
-// $medium-grey:                 rgb(134,126,126);
+$medium-grey:                 rgb(134,126,126);
 // $light-grey:                  rgb(177,169,169);
-// $super-light-grey:            rgb(208,200,200);
+$super-light-grey:            rgb(208,200,200);
 $ultra-light-grey:            rgb(225,222,222);
-// $bright-light-grey:           rgb(247,240,240);
-// $almost-white:                rgb(250,247,247);
+$bright-light-grey:           rgb(247,240,240);
+$almost-white:                rgb(250,247,247);
+
+/**
+ * Fonts
+ */
+$ff-alt:                      'Roboto Condensed', 'Hermes Condensed', 'Helvetica Neue', helvetica, arial, sans-serif;
