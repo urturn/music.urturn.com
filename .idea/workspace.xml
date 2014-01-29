@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_artists.scss" afterPath="$PROJECT_DIR$/sass/objects/_artists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_engagement.scss" afterPath="$PROJECT_DIR$/sass/objects/_engagement.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music.urturn.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390983007265" ignored="false" />
     <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390985689437" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/palette.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390821924158" ignored="false" />
-    <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390991150579" ignored="false" />
+    <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390991665225" ignored="false" />
     <file path="/_helpers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390840044950" ignored="false" />
     <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390990477991" ignored="false" />
     <file path="/_header.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390829807375" ignored="false" />
@@ -24,6 +20,7 @@
     <file path="/_typography.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390898504827" ignored="false" />
     <file path="/_variables.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390897706751" ignored="false" />
     <file path="/_footer.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926660574" ignored="false" />
+    <file path="$PROJECT_DIR$/stylesheets/all.css" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390991538751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="53" selection-start="3416" selection-end="3416" vertical-scroll-proportion="-7.7083335">
+            <state line="40" column="83" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41721854">
               <folding />
             </state>
           </provider>
@@ -70,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_engagement.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_engagement.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/objects/_engagement.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="13" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.46084723">
+            <state line="36" column="111" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,8 +114,8 @@
         <option value="$PROJECT_DIR$/sass/objects/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_artists.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/objects/_engagement.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -558,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="225" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
@@ -586,16 +576,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/objects/_engagement.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="53" selection-start="3416" selection-end="3416" vertical-scroll-proportion="-7.7083335">
+        <state line="36" column="111" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/objects/_engagement.scss">
+    <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="13" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.46084723">
+        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="83" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41721854">
           <folding />
         </state>
       </provider>
