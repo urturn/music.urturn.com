@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/artists.jpg" afterPath="$PROJECT_DIR$/images/artists.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_artists.scss" afterPath="$PROJECT_DIR$/sass/objects/_artists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/ui.js" afterPath="$PROJECT_DIR$/javascripts/ui.js" />
     </list>
     <ignored path="music.urturn.com.iws" />
@@ -17,7 +14,7 @@
     <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391007543991" ignored="false" />
     <file path="/_header.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390829807375" ignored="false" />
     <file path="/all.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926373627" ignored="false" />
-    <file path="/ui.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391008100369" ignored="false" />
+    <file path="/ui.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391009038855" ignored="false" />
     <file path="/_layout.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390834870110" ignored="false" />
     <file path="/_engagement.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390989044811" ignored="false" />
     <file path="/_typography.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390898504827" ignored="false" />
@@ -63,6 +60,7 @@
     <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/cut_out/_form.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391002573070" ignored="false" />
     <file path="/_filters.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391004486640" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/common/_filters.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391004487176" ignored="false" />
+    <file path="$PROJECT_DIR$/stylesheets/all.css" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391008355616" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <file leaf-file-name="ui.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="6" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.8607427">
+            <state line="44" column="7" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.64190984">
               <folding />
             </state>
           </provider>
@@ -644,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.8607427">
+        <state line="44" column="7" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.64190984">
           <folding />
         </state>
       </provider>

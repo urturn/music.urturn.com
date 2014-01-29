@@ -34,11 +34,28 @@
     }
   };
 
+  // set interval to start the carrousel
+  var cInterval = window.setInterval(function() {
+    var key = parseInt(currentKey) + 1;
+    if (key > 6) {
+      key = 1;
+    }
+    var target = jQuery('.artist__name[data-key="' + key + '"]');
+    switchView(key.toString(), target);
+  }, 3500);
+
   jQuery('a[href="#highlight_artist"]').click(function(e) {
     e.preventDefault();
+    // deactivate interval
+    window.clearInterval(cInterval);
+
     var target = jQuery(e.currentTarget),
         key = target.data('key');
 
+    switchView(key, target);
+  });
+
+  function switchView(key, target) {
     // manage navigation
     jQuery('.artist__name').removeClass('is-selected');
     target.addClass('is-selected');
@@ -54,6 +71,6 @@
       jQuery('.artist__cta > h2').html(artistInfo.cta);
       jQuery('.artist__link').attr('href', artistInfo.link).text(artistInfo.fullName);
     }, 200);
-  });
+  };
 
 })(jQuery);
