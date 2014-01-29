@@ -6,15 +6,9 @@
   margin-top: 36px;
 }
 
-.artist__main-container {
-  height: 350px;
-}
-
-.artist__mosaic {
-  height: 256px;
-
-  border-top: 5px solid $brand-color;
-}
+/**
+ * Navigation
+ */
 
 .artists__nav-container {
   border-bottom: 1px solid $bright-light-grey;
@@ -28,12 +22,25 @@
   padding: 12px 0;
   color: $dark-grey;
 
+  @include transition(all 0.2s ease-in 0.1s);
+
+  &:hover {
+    color: $brand-color;
+  }
+
   &.is-selected {
     color: $brand-color;
     border-bottom: 1px solid $brand-color;
   }
 }
 
+/**
+ * Artists main content
+ */
+
+.artist__main-container {
+  height: 350px;
+}
 
 .artist__picture {
   width: 30%;
@@ -44,6 +51,8 @@
 
   background-image: url('../images/artists.jpg');
   background-repeat: no-repeat;
+
+  /*@include transition(background-position 0.2s ease-in 0.1s);*/
 }
 
 .artist__cta {
@@ -64,7 +73,13 @@
   background-image: url('../images/artists-campaign.jpg');
   background-size: 2800px auto;
   background-repeat: no-repeat;
+
+  /*@include transition(background-position 0.2s ease 0.1s);*/
 }
+
+/**
+ * Artists background images
+ */
 
 .artist-1 {
   .artist__picture {
@@ -136,4 +151,15 @@
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-6.jpg');
   }
+}
+
+/**
+ * Artists mosaic
+ */
+.artist__mosaic {
+  height: 256px;
+
+  border-top: 5px solid $brand-color;
+
+  @include transition(background-image 0.2s ease-in 0.1s);
 }

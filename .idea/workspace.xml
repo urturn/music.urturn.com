@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_artists.scss" afterPath="$PROJECT_DIR$/sass/objects/_artists.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/tools/_mixins.scss" afterPath="$PROJECT_DIR$/sass/tools/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
     </list>
     <ignored path="music.urturn.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390983007265" ignored="false" />
-    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390984637310" ignored="false" />
+    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390985689437" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/palette.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390821924158" ignored="false" />
     <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926033699" ignored="false" />
     <file path="/_helpers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390840044950" ignored="false" />
-    <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390920489341" ignored="false" />
+    <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390988019261" ignored="false" />
     <file path="/_header.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390829807375" ignored="false" />
     <file path="/all.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926373627" ignored="false" />
     <file path="/ui.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390838158219" ignored="false" />
@@ -21,7 +22,6 @@
     <file path="/_typography.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390898504827" ignored="false" />
     <file path="/_variables.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390897706751" ignored="false" />
     <file path="/_footer.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926660574" ignored="false" />
-    <file path="$PROJECT_DIR$/stylesheets/all.css" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390927116053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09933775">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="174" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_engagement.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/objects/_engagement.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="188" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_buttons.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,52 +53,16 @@
       <file leaf-file-name="_mixins.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/tools/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="177" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+            <state line="0" column="12" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/all.scss">
+      <file leaf-file-name="_artists.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="225" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/settings/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="181" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/base/_layout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="178" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+            <state line="163" column="56" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.8459563">
               <folding />
             </state>
           </provider>
@@ -152,9 +89,7 @@
         <option value="$PROJECT_DIR$/sass/objects/_header.scss" />
         <option value="$PROJECT_DIR$/sass/tools/_helpers.scss" />
         <option value="$PROJECT_DIR$/sass/base/_typography.scss" />
-        <option value="$PROJECT_DIR$/sass/objects/_artists.scss" />
         <option value="$PROJECT_DIR$/sass/base/_buttons.scss" />
-        <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_engagement.scss" />
         <option value="$PROJECT_DIR$/sass/base/_layout.scss" />
         <option value="$PROJECT_DIR$/javascripts/ui.js" />
@@ -162,6 +97,8 @@
         <option value="$PROJECT_DIR$/sass/settings/_variables.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_footer.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
+        <option value="$PROJECT_DIR$/sass/objects/_artists.scss" />
       </list>
     </option>
   </component>
@@ -531,62 +468,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/objects/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="576" column="0" selection-start="12564" selection-end="12564" vertical-scroll-proportion="2.4708798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/generic/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/tools/_helpers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/objects/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="30" selection-start="2123" selection-end="2123" vertical-scroll-proportion="-21.24" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="225" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/tools/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="177" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -598,23 +482,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/objects/_engagement.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="188" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/settings/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="181" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -628,7 +498,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09933775">
+        <state line="0" column="48" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/generic/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/settings/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="181" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/objects/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="178" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/objects/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/tools/_helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="225" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/tools/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="56" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.8459563">
           <folding />
         </state>
       </provider>
