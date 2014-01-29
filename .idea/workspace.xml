@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/robotocondensed-bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/robotocondensed-bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/robotocondensed-bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/robotocondensed-bold-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/artists-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/artists-small.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_artists.scss" afterPath="$PROJECT_DIR$/sass/objects/_artists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/tools/_helpers.scss" afterPath="$PROJECT_DIR$/sass/tools/_helpers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_layout.scss" afterPath="$PROJECT_DIR$/sass/base/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/tools/_mixins.scss" afterPath="$PROJECT_DIR$/sass/tools/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/settings/_variables.scss" afterPath="$PROJECT_DIR$/sass/settings/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/ui.js" afterPath="$PROJECT_DIR$/javascripts/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music.urturn.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390821487351" ignored="false" />
-    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390923643302" ignored="false" />
+    <file path="/Dummy.txt" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390983007265" ignored="false" />
+    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390984637310" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/palette.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390821924158" ignored="false" />
     <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926033699" ignored="false" />
     <file path="/_helpers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390840044950" ignored="false" />
@@ -35,6 +21,7 @@
     <file path="/_typography.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390898504827" ignored="false" />
     <file path="/_variables.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390897706751" ignored="false" />
     <file path="/_footer.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926660574" ignored="false" />
+    <file path="$PROJECT_DIR$/stylesheets/all.css" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390927116053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="24" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-18.416666">
+            <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09933775">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.2496799">
+            <state line="15" column="174" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +71,7 @@
       <file leaf-file-name="_buttons.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-17.64">
+            <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,18 +156,18 @@
         <option value="$PROJECT_DIR$/sass/base/_buttons.scss" />
         <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_engagement.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/base/_layout.scss" />
         <option value="$PROJECT_DIR$/javascripts/ui.js" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
         <option value="$PROJECT_DIR$/sass/settings/_variables.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_footer.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1683" />
-    <option name="y" value="30" />
+    <option name="x" value="1684" />
+    <option name="y" value="18" />
     <option name="width" value="1907" />
     <option name="height" value="904" />
   </component>
@@ -383,8 +370,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -460,26 +448,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1683" y="30" width="1907" height="904" extended-state="0" />
+    <frame x="1684" y="18" width="1907" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16711445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16872649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -545,9 +533,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sass/objects/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="39" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/all.css">
@@ -559,30 +545,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/generic/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/tools/_helpers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="16" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/objects/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="30" selection-start="2123" selection-end="2123" vertical-scroll-proportion="-21.24">
-          <folding />
-        </state>
+        <state line="130" column="30" selection-start="2123" selection-end="2123" vertical-scroll-proportion="-21.24" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
@@ -601,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-17.64">
+        <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -641,16 +619,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="24" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-18.416666">
+        <state line="15" column="174" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="135" selection-end="135" vertical-scroll-proportion="0.2496799">
+        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09933775">
           <folding />
         </state>
       </provider>
