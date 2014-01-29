@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/artists.jpg" afterPath="$PROJECT_DIR$/images/artists.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_artists.scss" afterPath="$PROJECT_DIR$/sass/objects/_artists.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/ui.js" afterPath="$PROJECT_DIR$/javascripts/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music.urturn.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,10 +14,10 @@
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/palette.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391006003220" ignored="false" />
     <file path="/_helpers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390840044950" ignored="false" />
-    <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390990477991" ignored="false" />
+    <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391007543991" ignored="false" />
     <file path="/_header.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390829807375" ignored="false" />
     <file path="/all.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390926373627" ignored="false" />
-    <file path="/ui.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391005452397" ignored="false" />
+    <file path="/ui.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391008100369" ignored="false" />
     <file path="/_layout.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390834870110" ignored="false" />
     <file path="/_engagement.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390989044811" ignored="false" />
     <file path="/_typography.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390898504827" ignored="false" />
@@ -91,19 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ui.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="36" selection-start="1631" selection-end="1631" vertical-scroll-proportion="-24.16">
+            <state line="54" column="6" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.8607427">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_artists.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_artists.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="4" selection-start="690" selection-end="690" vertical-scroll-proportion="0.23106547">
+            <state line="55" column="45" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,9 +164,9 @@
         <option value="$PROJECT_DIR$/sass/objects/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_engagement.scss" />
-        <option value="$PROJECT_DIR$/javascripts/ui.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/objects/_artists.scss" />
+        <option value="$PROJECT_DIR$/javascripts/ui.js" />
       </list>
     </option>
   </component>
@@ -621,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="36" selection-start="1631" selection-end="1631" vertical-scroll-proportion="-24.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="181" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
@@ -644,7 +637,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="4" selection-start="690" selection-end="690" vertical-scroll-proportion="0.23106547">
+        <state line="55" column="45" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="6" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.8607427">
           <folding />
         </state>
       </provider>

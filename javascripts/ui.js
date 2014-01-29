@@ -50,8 +50,10 @@
 
     // Set the cta
     var artistInfo = artistsInfo[currentKey];
-    jQuery('.artist__cta > h2').html(artistInfo.cta);
-    jQuery('.artist__link').attr('href', artistInfo.link).text(artistInfo.fullName);
+    setTimeout(function() {
+      jQuery('.artist__cta > h2').html(artistInfo.cta);
+      jQuery('.artist__link').attr('href', artistInfo.link).text(artistInfo.fullName);
+    }, 200);
   });
 
 })(jQuery);

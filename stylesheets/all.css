@@ -842,13 +842,18 @@ input[type="submit"],
   width: 350px;
   height: 100%;
   min-width: 300px;
-  margin-left: -46px;
+  margin-left: -50px;
   background-image: url("../images/artists.jpg");
   background-repeat: no-repeat;
-  /*@include transition(background-position 0.2s ease-in 0.1s);*/
+  background-size: 2700px auto;
+  -webkit-transition: background-position 0.2s ease-in;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition: background-position 0.2s ease-in 0.1s;
+  -o-transition: background-position 0.2s ease-in 0.1s;
+  transition: background-position 0.2s ease-in 0.1s;
 }
 
-/* line 58, ../sass/objects/_artists.scss */
+/* line 59, ../sass/objects/_artists.scss */
 .artist__cta {
   height: 100%;
   max-width: 350px;
@@ -856,93 +861,97 @@ input[type="submit"],
   margin-top: 75px;
 }
 
-/* line 66, ../sass/objects/_artists.scss */
+/* line 67, ../sass/objects/_artists.scss */
 .artist__campaign {
   width: 450px;
   height: 310px;
   background-image: url("../images/artists-campaign.jpg");
   background-size: 2700px auto;
   background-repeat: no-repeat;
-  /*@include transition(background-position 0.2s ease 0.1s);*/
+  -webkit-transition: background-position 0.25s ease;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition: background-position 0.25s ease 0.1s;
+  -o-transition: background-position 0.25s ease 0.1s;
+  transition: background-position 0.25s ease 0.1s;
 }
 
 /**
  * Artists background images
  */
-/* line 82, ../sass/objects/_artists.scss */
+/* line 83, ../sass/objects/_artists.scss */
 .artist-1 .artist__picture {
-  background-position: -2042px 100%;
+  background-position: -50px 100%;
 }
-/* line 85, ../sass/objects/_artists.scss */
+/* line 86, ../sass/objects/_artists.scss */
 .artist-1 .artist__campaign {
   background-position: 0 100%;
 }
-/* line 88, ../sass/objects/_artists.scss */
+/* line 89, ../sass/objects/_artists.scss */
 .artist-1 .artist__mosaic {
   background-image: url("../images/mosaic-artist-1.jpg");
 }
 
-/* line 94, ../sass/objects/_artists.scss */
+/* line 95, ../sass/objects/_artists.scss */
 .artist-2 .artist__picture {
-  background-position: -426px 100%;
+  background-position: -500px 100%;
 }
-/* line 97, ../sass/objects/_artists.scss */
+/* line 98, ../sass/objects/_artists.scss */
 .artist-2 .artist__campaign {
   background-position: -450px 100%;
 }
-/* line 100, ../sass/objects/_artists.scss */
+/* line 101, ../sass/objects/_artists.scss */
 .artist-2 .artist__mosaic {
   background-image: url("../images/mosaic-artist-2.jpg");
 }
 
-/* line 106, ../sass/objects/_artists.scss */
+/* line 107, ../sass/objects/_artists.scss */
 .artist-3 .artist__picture {
-  background-position: -845px 100%;
+  background-position: -950px 100%;
 }
-/* line 109, ../sass/objects/_artists.scss */
+/* line 110, ../sass/objects/_artists.scss */
 .artist-3 .artist__campaign {
   background-position: -900px 100%;
 }
-/* line 112, ../sass/objects/_artists.scss */
+/* line 113, ../sass/objects/_artists.scss */
 .artist-3 .artist__mosaic {
   background-image: url("../images/mosaic-artist-3.jpg");
 }
 
-/* line 118, ../sass/objects/_artists.scss */
+/* line 119, ../sass/objects/_artists.scss */
 .artist-4 .artist__picture {
-  background-position: -1235px 100%;
+  background-position: -1400px 100%;
 }
-/* line 121, ../sass/objects/_artists.scss */
+/* line 122, ../sass/objects/_artists.scss */
 .artist-4 .artist__campaign {
-  background-position: -1800px 100%;
+  background-position: -1350px 100%;
 }
-/* line 124, ../sass/objects/_artists.scss */
+/* line 125, ../sass/objects/_artists.scss */
 .artist-4 .artist__mosaic {
   background-image: url("../images/mosaic-artist-4.jpg");
 }
 
-/* line 130, ../sass/objects/_artists.scss */
+/* line 131, ../sass/objects/_artists.scss */
 .artist-5 .artist__picture {
-  background-position: -1640px 100%;
+  background-position: -1850px 100%;
 }
-/* line 133, ../sass/objects/_artists.scss */
+/* line 134, ../sass/objects/_artists.scss */
 .artist-5 .artist__campaign {
-  background-position: -1350px 100%;
+  background-position: -1800px 100%;
 }
-/* line 136, ../sass/objects/_artists.scss */
+/* line 137, ../sass/objects/_artists.scss */
 .artist-5 .artist__mosaic {
   background-image: url("../images/mosaic-artist-5.jpg");
 }
 
-/* line 142, ../sass/objects/_artists.scss */
+/* line 143, ../sass/objects/_artists.scss */
 .artist-6 .artist__picture {
-  background-position: -30px 100%;
+  background-position: -2300px 100%;
 }
-/* line 145, ../sass/objects/_artists.scss */
+/* line 146, ../sass/objects/_artists.scss */
 .artist-6 .artist__campaign {
   background-position: -2250px 100%;
 }
-/* line 148, ../sass/objects/_artists.scss */
+/* line 149, ../sass/objects/_artists.scss */
 .artist-6 .artist__mosaic {
   background-image: url("../images/mosaic-artist-6.jpg");
 }
@@ -950,7 +959,7 @@ input[type="submit"],
 /**
  * Artists mosaic
  */
-/* line 156, ../sass/objects/_artists.scss */
+/* line 157, ../sass/objects/_artists.scss */
 .artist__mosaic {
   height: 256px;
   border-top: 5px solid #d2523e;
