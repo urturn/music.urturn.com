@@ -43,11 +43,11 @@
 }
 
 .artist__picture {
-  width: 30%;
+  width: 350px;
   height: 100%;
   min-width: 300px;
 
-  margin-left: -36px;
+  margin-left: -46px;
 
   background-image: url('../images/artists.jpg');
   background-repeat: no-repeat;
@@ -56,22 +56,19 @@
 }
 
 .artist__cta {
-  width: 27%;
   height: 100%;
+  max-width: 350px;
+  min-width: 250px;
 
   margin-top: 75px;
 }
 
 .artist__campaign {
-  width: 40%;
-  height: 100%;
-  min-width: 300px;
-
-  margin-right: -60px;
-  margin-top: -32px;
+  width: 450px;
+  height: 310px;
 
   background-image: url('../images/artists-campaign.jpg');
-  background-size: 2800px auto;
+  background-size: 2700px auto;
   background-repeat: no-repeat;
 
   /*@include transition(background-position 0.2s ease 0.1s);*/
@@ -98,7 +95,7 @@
     background-position: -426px 100%;
   }
   .artist__campaign {
-    background-position: -467px 100%;
+    background-position: -450px 100%;
   }
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-2.jpg');
@@ -110,7 +107,7 @@
     background-position: -845px 100%;
   }
   .artist__campaign {
-    background-position: -934px 100%;
+    background-position: -900px 100%;
   }
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-3.jpg');
@@ -122,7 +119,7 @@
     background-position: -1235px 100%;
   }
   .artist__campaign {
-    background-position: -1868px 100%;
+    background-position: -1800px 100%;
   }
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-4.jpg');
@@ -134,7 +131,7 @@
     background-position: -1640px 100%;
   }
   .artist__campaign {
-    background-position: -1401px 100%;
+    background-position: -1350px 100%;
   }
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-5.jpg');
@@ -146,7 +143,7 @@
     background-position: -30px 100%;
   }
   .artist__campaign {
-    background-position: -2335px 100%;
+    background-position: -2250px 100%;
   }
   .artist__mosaic {
     background-image: url('../images/mosaic-artist-6.jpg');
