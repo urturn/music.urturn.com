@@ -4,33 +4,33 @@
   var artistsInfo = {
     '1': {
       fullName: 'Britney Spears',
-      link: 'http://www.urturn.com/britneyspears',
-      cta: '\"Make your own Britney Jean cover, it\'s ur turn!\"'
+      link: 'http://www.urturn.com/britneyspears/britneyjean',
+      cta: 'Make your #BritneyJean Selfie! It\'s Ur Turn!'
     },
     '2': {
-      fullName: 'Green day',
-      link: 'http://www.urturn.com/greenday',
-      cta: '\"Say \'Queso\'! Put your face in ¡Uno! ¡Dos! or ¡Tres! new album covers!\"'
+      fullName: 'Green Day',
+      link: 'http://www.urturn.com/GreenDay/uno_dos_tres',
+      cta: '\"Say \'Queso\'! ¡Uno! ¡Dos! or ¡Tres! It\'s Ur Turn!\"'
     },
     '3': {
       fullName: 'Miley Cyrus',
-      link: 'http://www.urturn.com/MileyCyrus',
-      cta: '\"Make your #Bangers\"'
+      link: 'http://www.urturn.com/mileycyrus/bangerz',
+      cta: 'Make your #Bangerz <br /> It\'s Ur Turn!'
     },
     '4': {
       fullName: 'Kendrick Lamar',
-      link: 'http://www.urturn.com/kendricklamar',
-      cta: '\"Create an album cover featuring YOU\"'
+      link: 'http://www.urturn.com/kendricklamar/gkmc_cover',
+      cta: 'Be A Good Kid! It\'s Ur Turn!'
     },
     '5': {
       fullName: 'Demi Lovato',
-      link: 'http://www.urturn.com/demilovato',
-      cta: '\"Make your Neon Lights cover!\"'
+      link: 'http://www.urturn.com/DemiLovato/neonlights',
+      cta: 'Turn Your World in #NeonLights! It\'s Ur Turn!'
     },
     '6': {
-      fullName: 'Elie Goulding',
-      link: 'http://www.urturn.com/EllieGoulding',
-      cta: '\"Be creative and design your own #elliegoulding poster!\"'
+      fullName: 'Ellie Goulding',
+      link: 'http://www.urturn.com/EllieGoulding/halcyon_cover',
+      cta: 'Show Me Your #Halcyon World! It\'s Ur Turn!'
     }
   };
 
@@ -50,7 +50,7 @@
 
     // Set the cta
     var artistInfo = artistsInfo[currentKey];
-    jQuery('.artist__cta > h2').text(artistInfo.cta);
+    jQuery('.artist__cta > h2').html(artistInfo.cta);
     jQuery('.artist__link').attr('href', artistInfo.link).text(artistInfo.fullName);
   });
 
