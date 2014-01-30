@@ -1,6 +1,6 @@
 (function(jQuery){
 
-  var currentKey = '1';
+  var currentKey = '4';
   var artistsInfo = {
     '1': {
       fullName: 'Britney Spears',

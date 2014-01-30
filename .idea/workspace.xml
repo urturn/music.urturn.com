@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf37d7-f0df-4719-9606-9e8d7be18128" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/objects/_footer.scss" afterPath="$PROJECT_DIR$/sass/objects/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/tools/_helpers.scss" afterPath="$PROJECT_DIR$/sass/tools/_helpers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_layout.scss" afterPath="$PROJECT_DIR$/sass/base/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/all.css" afterPath="$PROJECT_DIR$/stylesheets/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/ui.js" afterPath="$PROJECT_DIR$/javascripts/ui.js" />
     </list>
     <ignored path="music.urturn.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390983007265" ignored="false" />
-    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391073905136" ignored="false" />
+    <file path="/a.dummy" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098648973" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/palette.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
-    <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391077890341" ignored="false" />
+    <file path="/index.html" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391099402505" ignored="false" />
     <file path="/_helpers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391077823614" ignored="false" />
     <file path="/_artists.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391007543991" ignored="false" />
     <file path="/_header.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1390829807375" ignored="false" />
@@ -27,7 +24,7 @@
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/mobile/mobile.badges.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900323" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/_mixins.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900323" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/_variables.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900323" ignored="false" />
-    <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/expression_editor/wizard.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391070483965" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/expression_editor/wizard.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391092650642" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/mobile/mobile.forms.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/alpha/_whatever-down.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/modules/flash.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
@@ -41,7 +38,7 @@
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/site.layout.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/site.loading.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/views/layouts/about.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
-    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/templates/expression_page/header.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/templates/expression_page/header.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391099262674" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/views/layouts/light.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/views/layouts/popup.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/mixins/_pointers.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391001900324" ignored="false" />
@@ -64,6 +61,47 @@
     <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/cut_out/_form.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391002573070" ignored="false" />
     <file path="/_filters.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391004486640" ignored="false" />
     <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/common/_filters.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391004487176" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/music_player_overlay/_form.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391094367255" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/sticker/_form.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391078364993" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/managers/expression_editor/preview_thumb_overlay_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391094367255" ignored="false" />
+    <file path="/preview_thumb_overlay_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391088802021" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/managers/expression_editor/overlay_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097502562" ignored="false" />
+    <file path="/overlay_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391091023907" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/models/template_data.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391094367255" ignored="false" />
+    <file path="/template_data.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391089626825" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/managers/expression_editor/file_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391094367255" ignored="false" />
+    <file path="/file_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391090329849" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/applications/mobile/views/templates/expression_card_slider.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391095139128" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/ios_app_patch/1_5_5.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391094367255" ignored="false" />
+    <file path="/1_5_5.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391093276380" ignored="false" />
+    <file path="/expression_card_slider.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391095135913" ignored="false" />
+    <file path="/header.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391096845963" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/public/js/i18n/pt.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/i18n/en.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/public/js/i18n/ru.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/i18n/es.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/i18n/fr.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/i18n/pt.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/i18n/ru.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/public/js/i18n/en.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/public/js/i18n/es.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/public/js/i18n/fr.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097089203" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/templates/expression_page/sharing.jst.ejs" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097358384" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/site/pages/expression_page.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391099262674" ignored="false" />
+    <file path="/expression_page.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097258515" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/overlay/_overlay.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097522548" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/sticker/_sticker.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097573448" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/views/expression_editor/expression_editor_view.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098660189" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/managers/expression_editor/sticker_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097640022" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/music/_music.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097994254" ignored="false" />
+    <file path="/_music.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391097866626" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/common/_info.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098510880" ignored="false" />
+    <file path="/_info.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098510880" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/stylesheets/expression_editor/editor.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098458246" ignored="false" />
+    <file path="/editor.css.scss" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098400436" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/views/template_data/forms/common/_background.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098646622" ignored="false" />
+    <file path="/_background.html.erb" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098624926" ignored="false" />
+    <file path="$PROJECT_DIR$/../webdoc/app/assets/javascripts/webdoc/managers/expression_editor/background_uploader_manager.js" changelist="4fcf37d7-f0df-4719-9606-9e8d7be18128" time="1391098678459" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +121,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="111" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.72450334">
+            <state line="36" column="36" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="21" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0397878">
               <folding />
             </state>
           </provider>
@@ -96,7 +143,9 @@
         <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1391077863000" expanded="true" signature="32:465" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,15 +163,6 @@
         <entry file="file://$PROJECT_DIR$/sass/base/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="42" column="31" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="7" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-19.36">
               <folding />
             </state>
           </provider>
@@ -190,17 +230,17 @@
         <option value="$PROJECT_DIR$/sass/tools/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_engagement.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_artists.scss" />
-        <option value="$PROJECT_DIR$/javascripts/ui.js" />
         <option value="$PROJECT_DIR$/sass/base/_layout.scss" />
         <option value="$PROJECT_DIR$/sass/tools/_helpers.scss" />
         <option value="$PROJECT_DIR$/sass/objects/_footer.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascripts/ui.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1688" />
-    <option name="y" value="47" />
+    <option name="x" value="1675" />
+    <option name="y" value="56" />
     <option name="width" value="1907" />
     <option name="height" value="904" />
   </component>
@@ -482,7 +522,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1688" y="47" width="1907" height="904" extended-state="0" />
+    <frame x="1675" y="56" width="1907" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -635,20 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="7" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-19.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="45" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="31" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
@@ -666,13 +692,29 @@
     <entry file="file://$PROJECT_DIR$/sass/objects/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1391077863000" expanded="true" signature="32:465" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/objects/_artists.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="45" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="111" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.72450334">
+        <state line="36" column="36" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0397878">
           <folding />
         </state>
       </provider>
