@@ -64,6 +64,21 @@
   line-height: 1.5;
 }
 
+/* line 52, ../sass/tools/_helpers.scss */
+.icon {
+  vertical-align: top;
+}
+/* line 55, ../sass/tools/_helpers.scss */
+.icon::before {
+  display: inline-block;
+  content: ' ';
+  background-repeat: no-repeat;
+}
+/* line 61, ../sass/tools/_helpers.scss */
+.icon.spaced-right::before {
+  margin-right: 6px;
+}
+
 /* normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -535,7 +550,9 @@ body {
 
 /* line 44, ../sass/base/_layout.scss */
 .site-footer {
-  padding: 24px 0;
+  padding: 24px 12px;
+  color: #faf7f7;
+  text-align: left;
   background-color: #383031;
 }
 
@@ -1098,16 +1115,29 @@ input[type="submit"],
 /**
  * Footer
  */
-/* line 5, ../sass/objects/_footer.scss */
-.site-footer {
-  color: #faf7f7;
-  text-align: left;
-}
-/* line 9, ../sass/objects/_footer.scss */
+/* line 6, ../sass/objects/_footer.scss */
 .site-footer p {
   margin: 0;
 }
-/* line 13, ../sass/objects/_footer.scss */
+/* line 10, ../sass/objects/_footer.scss */
 .site-footer .nav {
   margin-top: 12px;
+}
+/* line 14, ../sass/objects/_footer.scss */
+.site-footer .icon-email {
+  margin-right: 12px;
+}
+/* line 17, ../sass/objects/_footer.scss */
+.site-footer .icon-email::before {
+  background-image: url("../images/icons.png");
+  background-position: 0 100%;
+  height: 26px;
+  width: 30px;
+}
+/* line 26, ../sass/objects/_footer.scss */
+.site-footer .icon-twitter::before {
+  background-image: url("../images/icons.png");
+  background-position: -30px 100%;
+  height: 26px;
+  width: 30px;
 }

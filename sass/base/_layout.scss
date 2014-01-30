@@ -42,6 +42,9 @@ body {
   }
 
 .site-footer {
-  padding: 24px 0;
+  padding: 24px 12px;
+
+  color: $almost-white;
+  text-align: left;
   background-color: $dark-grey;
 }

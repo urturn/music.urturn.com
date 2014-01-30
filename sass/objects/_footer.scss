@@ -3,14 +3,31 @@
  */
 
 .site-footer {
-  color: $almost-white;
-  text-align: left;
-
   p {
     margin: 0;
   }
 
   .nav {
     margin-top: 12px;
+  }
+
+  .icon-email {
+    margin-right: 12px;
+
+    &::before {
+      background-image: url('../images/icons.png');
+      background-position: 0 100%;
+      height: 26px;
+      width: 30px;
+    }
+  }
+
+  .icon-twitter {
+    &::before {
+      background-image: url('../images/icons.png');
+      background-position: -30px 100%;
+      height: 26px;
+      width: 30px;
+    }
   }
 }

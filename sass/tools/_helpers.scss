@@ -47,3 +47,18 @@
     line-height: 1.5;
   }
 }
+
+// icons
+.icon {
+  vertical-align: top;
+
+  &::before {
+    display: inline-block;
+    content: ' ';
+    background-repeat: no-repeat;
+  }
+
+  &.spaced-right::before {
+    margin-right: 6px;
+  }
+}
